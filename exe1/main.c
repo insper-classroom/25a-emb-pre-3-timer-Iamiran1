@@ -58,8 +58,6 @@ int main()
         }
         if(!flag_f_r){
             gpio_put(LED_PIN_R,0);
-            cancel_repeating_timer(&timer_0);
-
         }
 
     }
